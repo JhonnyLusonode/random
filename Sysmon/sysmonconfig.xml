@@ -1953,6 +1953,7 @@ contact GOLINE SA at https://www.goline.ch
         <TargetFilename name="technique_id=T1546.011,technique_name=Application Shimming" condition="contains">C:\Windows\AppPatch\Custom</TargetFilename>
         <TargetFilename condition="end with">.bat</TargetFilename>
         <TargetFilename condition="end with">.cmd</TargetFilename>
+        <TargetFilename name="technique_id=T1105,technique_name=FiveM Script" condition="end with">.lua</TargetFilename>
         <TargetFilename name="technique_id=T1059,technique_name=Command and Scripting Interpreter" condition="end with">.chm</TargetFilename>
         <TargetFilename condition="contains all">C:\Users\;\.azure\accesstokens.json</TargetFilename>
         <TargetFilename condition="contains all">C:\Users\;\.aws\credentials</TargetFilename>
